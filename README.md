@@ -23,6 +23,9 @@ El AD8232 proporciona nueve conexiones desde el circuito en el que puedes soldar
 #### Logica implementada
 Sistema detector de picos con ventanas movibles a traves del tiempo.
 
+
+console.log('Hola Mundo')
+
   // -----------------INTERVALOS DE UN MINUTO PARA LA FC------------------------
   TiempoECG= millis();
   if (TiempoECG-Reloj>= intervalo){
