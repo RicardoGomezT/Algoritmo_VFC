@@ -26,6 +26,13 @@ Sistema detector de picos con ventanas movibles a traves del tiempo.
 
 console.log('Hola Mundo')
 
+<b>TiempoECG= millis();
+  if (TiempoECG-Reloj>= intervalo){
+    Freq= ContC; ContC=0; Cont++; Reloj=TiempoECG;}
+  String FreqC= String (Freq);
+  if (FreqC.length()==1){ String A= "00"; A+=FreqC; FreqC=A; }
+  else if (FreqC.length()==2){ String A= "0"; A+=FreqC; FreqC=A; }</b>
+
   // -----------------INTERVALOS DE UN MINUTO PARA LA FC------------------------
   TiempoECG= millis();
   if (TiempoECG-Reloj>= intervalo){
